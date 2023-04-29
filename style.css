@@ -1,0 +1,91 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background: #333;
+}
+.container-task{
+    margin: 50px auto;
+    width: 70%;
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 25px;
+}
+h1{
+    text-align: center;
+    color: #e91e63;
+    margin-bottom: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+#addtaskinput{
+    width: 800px;
+    padding: 11px 20px;
+    border-radius: 9px;
+    
+}
+input{
+    border: unset;outline: unset;
+    
+}
+
+button{
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 9px;
+}
+
+#addtaskbtn,#savetaskbtn{
+    background: #009688;
+}
+#deleteallbtn{
+    background: #e91e63;
+}
+#addedtasklist{
+    margin: 20px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.task{
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+}
+
+.task span{
+    margin-right: 15px;
+    background: #eee;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+.task div{
+    position: absolute;
+    right: 20px;
+}
+.task div i{
+    margin-right: 10px;
+}
+.del {
+    background-color: #e91e63;
+}
+.edit{
+    background: #ff5722;
+}
+.completed{text-decoration: line-through;}
